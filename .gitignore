@@ -1,0 +1,18 @@
+# 原始资料发布包(本地备份,含第三方软件/手册/任务书,不纳入版本库)
+2024秋硬件综合训练课设资料发布包/
+
+# 第三方可再分发工具(请按 README 从官网下载)
+# 注意:libs/ 下的 cs3410.jar、riscv-probe.jar 是打开电路的必需库,不在忽略之列
+rars*.jar
+logisim*.exe
+logisim*.jar
+
+# 操作系统 / 编辑器
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Logisim 自动生成的备份
+*.circ.bak
